@@ -23,6 +23,10 @@ mybatis:
   type-aliases-package: cn.tedu.pojo
   configuration:
     map-underscore-to-camel-case: true
+#引入日志信息
+logging:
+  level:
+    cn.tedu.mapper: debug
 #es
 es:
   nodes: 10.42.181.129:9300,10.42.86.124:9300,10.42.118.204:9300
